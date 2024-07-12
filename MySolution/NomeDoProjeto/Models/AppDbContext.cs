@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 
+namespace NomeDoProjeto.Models;
+
 public class AppDbContext : DbContext
 {
     public DbSet<Aluno> Alunos { get; set; }
